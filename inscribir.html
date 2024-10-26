@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COLEGIO VILLALOBOS - Inscripcciones</title>
+        <link rel="stylesheet" href="style(inscribir).css">
+        <script>
+            var myWindow;
+    
+            function openWin() {
+                myWindow = window.open("", "", "width=100, height=100");
+            }
+    
+            function resizeWin() {
+                myWindow.resizeTo(250, 250);
+                 myWindow.focus();
+            }
+        </script>
+    </head>
+    <body>
+        <div class = "header">
+            <img class = "logo" src="Logo.png" width="80px">
+            <center>
+                <ul class = "ul">
+                COLEGIO VILLALOBOS
+                </ul>
+        
+                <frase class = "frase">
+                    <p>El colegio de Mexico No.1 en todo el continenete Americano.</p>
+                </frase>
+            </center> 
+        </div>
+
+        <div class = "return">
+            <ul class ="nab">
+                <li><a href="index.html">Menu</a></li>
+            </ul>
+        </div>
+
+        <div class = "Formu">
+            <section class = "datosE">
+                <center>
+                    <div class = "name">
+                        Datos del Estudiante                       
+                    </div>
+                    <input class = "resgis" type="text" name="nombreE" id = "nombreE" placeholder="Nombre del estudiante">
+                    <input class = "resgis" type="text" name="fechaNa" id = "fechaNa" placeholder="Fecha de nacimiento">
+                    <input class = "resgis" type="text" name="lugarNa" id = "lugarNa" placeholder="Lugar de nacimiento">
+                    <input class = "resgis" type="text" name="sexo" id = "sexo" placeholder="Genero">
+                    <input class = "resgis" type="text" name="nacion" id = "nacion" placeholder="Nacionalidad">
+                    <input class = "resgis" type="domiE" name="domiE" id = "nacion" placeholder="Domicilio">
+                    <input class = "resgis" type="text" name="numTe" id = "numTe" placeholder="Numero de telefono (opcional)">
+                    <input class = "resgis" type="text" name="gradoI" id = "gradoI" placeholder="Grado al que ingresa">
+                    <input class = "resgis" type="text" name="escuelaE" id = "escuelaE" placeholder="Escuela de provenencia">      
+                </center> 
+            </section>
+    
+            <section class = "datosTu">
+                <center>
+                    <div class = "name">
+                        Datos del Tutor
+                    </div>
+                    <input class = "resgis" type="text" name="nombreTu" id = "nombreTu" placeholder="Nombre del padre o tutor">
+                    <input class = "resgis" type="text" name="relacionTu" id = "relacionTu" placeholder="Relacion (padre, tutor legal, etc)">
+                    <input class = "resgis" type="domiTu" name="domiTu" id = "nacion" placeholder="Domicilio">
+                    <input class = "resgis" type="text" name="numTu" id = "numTe" placeholder="Numero de telefono del tutor">
+                    <input class = "resgis" type="text" name="ocupa" id = "ocupa" placeholder="Lugar de trabajo">
+                    <input class = "resgis" type="text" name="correoTu" id = "correoTu" placeholder="Correo el tutor">      
+                </center>
+            </section>
+
+            <section class = "extra">
+                <center>
+                    <div class = "name">
+                        Informacion Adicional
+                    </div>
+                    <textarea class = "resgist" type="text" name="interesesE" id = "interesesE" placeholder="Interes o algunas actividades extracurriculares a practicar"></textarea>
+                    <textarea class = "resgist" type="text" name="porqueIns" id = "porqueIns" placeholder="Por que razon escogiste esta institución"></textarea>
+                </center>                
+            </section>
+            <input class = "subir "type="submit" value="Inscribir">    
+
+        </div>
+        
+    </body>
+</html>
