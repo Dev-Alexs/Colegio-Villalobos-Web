@@ -15,12 +15,11 @@ body{
     position: absolute;
     left: 0;
     top: 0;
+    right: 0;
     height:80px;
-    background-attachment:fixed;
-    background: 
-     darkred 80%;
+    background:  darkred 80%;
     padding-bottom: 3%;
-    padding-top: 1%;
+    padding-top: 0%;
     padding-left: 5%;
     align-items:flex-end;
 }
@@ -73,6 +72,7 @@ ul{
     padding-left: 20px;
     padding-right: 15px;
     padding-top: 5px;
+    padding-bottom: 2px;
     width: auto;
     height: auto;
 }
@@ -95,57 +95,49 @@ ul{
 }
 
 /*bloques*/
+.container{
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,10%);
+    height: auto;
+
+}
+
+.separator{
+    height: 20px;
+}
 
 .block1{
     display: flex;
-    position: absolute;
-    top: 30vh;
-    left: 50%;
-    transform: translate(-50%,-50%);
     align-items: center;
     background-color: darkred;
-    width: 80%;
-    height: 200px;
+    height: auto;
     border-radius: 10px;
 
 }
 .block2{
-    position: absolute;
-    top: 60vh;
-    left: 50%;
-    transform: translate(-50%,-50%);
     align-items: flex-end;
     background-color: darkred;
-    width: 80%;
-    height: 250px;
+    height: auto;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
 
-
-}.block3{
-    position: absolute;
-    left: 50%;
-    top: 50vh;
-    transform: translate(-50%,-50%);
+}
+.block3{
     align-items: flex-end;
     background-color: darkred;
-    width: 100%;
-    height: 330px;
+    height: auto;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
 
-
-}.block4{
-    position: absolute;
-    top: 95vh;
-    left: 50%;
-    transform: translate(-50%,-50%);
+}
+.block4{
     align-items: flex-end;
     background-color: darkred;
-    width: 100%;
-    height: 350px;
+    height: auto;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
