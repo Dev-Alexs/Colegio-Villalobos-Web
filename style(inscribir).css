@@ -67,7 +67,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     border-bottom: solid;
-    width: 400px;
+    width: auto;
 
 }
 .Formu{
@@ -82,13 +82,12 @@ body{
     padding:30px;
     border-radius: 4px;
     border: Solid yellow;
-    float: left;
 
 }
 .resgis{
     margin-bottom: 15px;
     padding: 10px;
-    width: 250px;
+    width: 70%;
     font-family: calibri ;
     color: rgb(0, 0, 0);
     border: none;
@@ -97,30 +96,29 @@ body{
     font-family: calibri ;
     margin-bottom: 15px;
     padding: 10px;
-    width: 350px;
+    width: 70%;
     height: 200px;
     color: black;
     border-radius: 5px;
 }
 
 .datosE{
-    width: 400px;
+    width: 70%;
 }
 .datosTu{
-    width: 400px;
-    margin-left: 150px;
-    margin-right: 150px;
+    width: 70%;
+    margin-left: 1%;
+    margin-right: 1%;
 
 }
 .extra{
-    width: 400px;
+    width: 70%;
 
 }
 .subir{
     position:absolute;
     bottom: 5%;
-    justify-content: center;
-    width: 1500px;
+    width: 95%;
     color: white;
     border: 1px solid white;
     border-radius: 5px;
